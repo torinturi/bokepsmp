@@ -1,5 +1,5 @@
 import "./globals.css";
-
+import Script from "next/script";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import { SITENAME } from "@/lib/constants";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     },
     verification: {
         google: 'iHjpzVEYyvm6UloazucKIhuLYd08sOQFZjopsGc1BOI',
-        yandex: 'ca81afa3a5f47780',
+        yandex: '04c01ea1c8975926',
     },
 };
 
@@ -45,7 +45,7 @@ export default function RootLayout({
             "name":"admin",
             "url":"https://bokepsmp.pages.dev"
             },
-            "foundingDate":"2024-02-02"
+            "foundingDate":"2024-01-09"
         }
         const jsonLd1 = {
             "@context": "https://schema.org",
@@ -56,7 +56,7 @@ export default function RootLayout({
         "image": "https://bokepsmp.pages.dev/favicon.ico",
         "potentialAction":{
             "@type":"ReadAction",
-            "target":"https://bokepsmp.pages.dev/"}
+            "target":"https://bokepsmp.pages.dev"}
         }
         const jsonLd2 = {
             "@context": "https://schema.org",
@@ -93,6 +93,7 @@ export default function RootLayout({
                     {children}
                 </ThemeProvider>
             </body>
+<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w264x294&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         </html>
     );
 }
